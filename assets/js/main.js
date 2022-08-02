@@ -10,6 +10,6 @@ $('.slider-nav').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
-    centerMode: true,
+    centerMode: false,
     focusOnSelect: true,
 });

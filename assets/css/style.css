@@ -22,9 +22,9 @@
   overflow: hidden;
 }
 .hero-banner-wrapp .slider-for .banner-thumb {
-  width: 100%;
-  height: 800px !important;
+  height: 100vh;
   position: relative;
+  display: inline-block;
 }
 .hero-banner-wrapp .slider-for .banner-thumb img {
   width: 100%;
@@ -34,12 +34,24 @@
 
 .banner-thumb-wrapp.slider-nav {
   position: relative;
-  bottom: 94px;
+  bottom: 50px;
   z-index: 999;
 }
 
-.banner-thumb {
-  float: left;
+.banner-thumb-wrapp .banner-thumb {
+  display: inline-block;
+  width: 250px !important;
+  height: 250px;
+  margin-left: 10px;
+}
+.banner-thumb-wrapp .banner-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-thumb-wrapp .slick-track {
+  text-align: right;
 }
 
 /*!
