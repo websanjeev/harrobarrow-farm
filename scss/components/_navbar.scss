@@ -3,4 +3,12 @@
     z-index: 9999;
     left: 0;
     right: 0;
+    .navbar-brand img{
+        width: 150px;
+        object-fit: cover;
+    }
+    .navbar-nav li a{
+        color: $white;
+        margin: 0 50px;
+    }
 }

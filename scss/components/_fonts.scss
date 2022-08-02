@@ -1,39 +1,47 @@
+$font-family-base: 'GilroyLight', sans-serif;
 
-$font-family-sans-serif: 'GilroyLight', 'DaughterofFortune', 'GilroyExtraBold'  sans-serif;
-$font-family-serif: 'GilroyLight', 'DaughterofFortune', 'GilroyExtraBold'  sans-serif;
+$font-family-serif: "DaughterofFortune", serif;
+$font-family-sans-serif: "GilroyLight", sans-serif;
 
-$font-family-base: 'GilroyLight', 'DaughterofFortune', 'GilroyExtraBold'  sans-serif;
 
 
 @font-face {
     font-family: 'DaughterofFortune';
-    src: url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.eot');
-    src: url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.eot') format('embedded-opentype'),
-         url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.woff2') format('woff2'),
-         url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.woff') format('woff'),
-         url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.ttf') format('truetype'),
-         url('/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.svg#DaughterofFortune') format('svg');
+    src: url('/assets/fonts/daughter_of_fortune/Daughter-of-Fortune.ttf');
+    src: url('/assets/fonts/daughter_of_fortune/DaughterofFortune.eot');
+    src: url('/assets/fonts/daughter_of_fortune/DaughterofFortune.eot') format('embedded-opentype'),
+        url('/assets/fonts/daughter_of_fortune/DaughterofFortune.woff2') format('woff2'),
+        url('/assets/fonts/daughter_of_fortune/DaughterofFortune.woff') format('woff'),
+        url('/assets/fonts/daughter_of_fortune/DaughterofFortune.ttf') format('truetype'),
+        url('/assets/fonts/daughter_of_fortune/DaughterofFortune.svg#DaughterofFortune') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 // ====================== //
 
 @font-face {
     font-family: 'GilroyExtraBold';
-    src: url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.eot');
-    src: url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.eot') format('embedded-opentype'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.woff2') format('woff2'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.woff') format('woff'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.ttf') format('truetype'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.svg#GilroyExtraBold') format('svg');
+    src: url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.eot');
+    src: url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.eot') format('embedded-opentype'),
+        url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.woff') format('woff'),
+        url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.ttf') format('truetype'),
+        url('/assets/fonts/Gilroy-FREE/GilroyExtraBold.svg#GilroyExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
 
 @font-face {
     font-family: 'GilroyLight';
-    src: url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.eot');
-    src: url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.eot') format('embedded-opentype'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.woff2') format('woff2'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.woff') format('woff'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.ttf') format('truetype'),
-         url('/assets/fonts/Gilroy-FREE/fonts/GilroyLight.svg#GilroyLight') format('svg');
+    src: url('/assets/fonts/Gilroy-FREE/GilroyLight.eot');
+    src: url('/assets/fonts/Gilroy-FREE/GilroyLight.eot') format('embedded-opentype'),
+        url('/assets/fonts/Gilroy-FREE/GilroyLight.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-FREE/GilroyLight.woff') format('woff'),
+        url('/assets/fonts/Gilroy-FREE/GilroyLight.ttf') format('truetype'),
+        url('/assets/fonts/Gilroy-FREE/GilroyLight.svg#GilroyLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+

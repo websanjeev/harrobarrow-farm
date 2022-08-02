@@ -12,4 +12,7 @@ $('.slider-nav').slick({
     asNavFor: '.slider-for',
     centerMode: false,
     focusOnSelect: true,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-long-arrow-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="fa fa-long-arrow-right"></i></button>'
 });
