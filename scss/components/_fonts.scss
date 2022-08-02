@@ -3,3 +3,37 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-serif: 'Roboto', sans-serif;
 
 $font-family-base: 'Roboto', sans-serif;
+
+
+@font-face {
+    font-family: 'DaughterofFortune';
+    src: url('fonts/DaughterofFortune.eot');
+    src: url('fonts/DaughterofFortune.eot') format('embedded-opentype'),
+         url('fonts/DaughterofFortune.woff2') format('woff2'),
+         url('fonts/DaughterofFortune.woff') format('woff'),
+         url('fonts/DaughterofFortune.ttf') format('truetype'),
+         url('fonts/DaughterofFortune.svg#DaughterofFortune') format('svg');
+}
+
+// ====================== //
+
+@font-face {
+    font-family: 'GilroyExtraBold';
+    src: url('fonts/GilroyExtraBold.eot');
+    src: url('fonts/GilroyExtraBold.eot') format('embedded-opentype'),
+         url('fonts/GilroyExtraBold.woff2') format('woff2'),
+         url('fonts/GilroyExtraBold.woff') format('woff'),
+         url('fonts/GilroyExtraBold.ttf') format('truetype'),
+         url('fonts/GilroyExtraBold.svg#GilroyExtraBold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('fonts/GilroyLight.eot');
+    src: url('fonts/GilroyLight.eot') format('embedded-opentype'),
+         url('fonts/GilroyLight.woff2') format('woff2'),
+         url('fonts/GilroyLight.woff') format('woff'),
+         url('fonts/GilroyLight.ttf') format('truetype'),
+         url('fonts/GilroyLight.svg#GilroyLight') format('svg');
+}
