@@ -1,9 +1,13 @@
+// slick carousel
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
 // components
 @import"components/color";
 @import"components/typography";
 @import"components/fonts";
-// slick carousel
-@import "../node_modules/slick-carousel/slick/slick.css";
-@import "../node_modules/slick-carousel/slick/slick-theme.css";
+@import"components/navbar";
+@import"components/banner";
+
 // Import bootstrap
 @import"../node_modules/bootstrap/scss/bootstrap.scss";

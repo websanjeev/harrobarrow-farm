@@ -9,6 +9,39 @@
   color: orange;
 }
 
+.navbar-wrapp {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+}
+
+.hero-banner-wrapp {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.hero-banner-wrapp .slider-for .banner-thumb {
+  width: 100%;
+  height: 800px !important;
+  position: relative;
+}
+.hero-banner-wrapp .slider-for .banner-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-thumb-wrapp.slider-nav {
+  position: relative;
+  bottom: 94px;
+  z-index: 999;
+}
+
+.banner-thumb {
+  float: left;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
