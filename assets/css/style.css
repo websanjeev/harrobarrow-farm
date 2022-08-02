@@ -11,18 +11,18 @@
 
 @font-face {
   font-family: "DaughterofFortune";
-  src: url("fonts/DaughterofFortune.eot");
-  src: url("fonts/DaughterofFortune.eot") format("embedded-opentype"), url("fonts/DaughterofFortune.woff2") format("woff2"), url("fonts/DaughterofFortune.woff") format("woff"), url("fonts/DaughterofFortune.ttf") format("truetype"), url("fonts/DaughterofFortune.svg#DaughterofFortune") format("svg");
+  src: url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.eot");
+  src: url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.eot") format("embedded-opentype"), url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.woff2") format("woff2"), url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.woff") format("woff"), url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.ttf") format("truetype"), url("/assets/fonts/daughter_of_fortune/fonts/DaughterofFortune.svg#DaughterofFortune") format("svg");
 }
 @font-face {
   font-family: "GilroyExtraBold";
-  src: url("fonts/GilroyExtraBold.eot");
-  src: url("fonts/GilroyExtraBold.eot") format("embedded-opentype"), url("fonts/GilroyExtraBold.woff2") format("woff2"), url("fonts/GilroyExtraBold.woff") format("woff"), url("fonts/GilroyExtraBold.ttf") format("truetype"), url("fonts/GilroyExtraBold.svg#GilroyExtraBold") format("svg");
+  src: url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.eot");
+  src: url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.eot") format("embedded-opentype"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.woff2") format("woff2"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.woff") format("woff"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.ttf") format("truetype"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyExtraBold.svg#GilroyExtraBold") format("svg");
 }
 @font-face {
   font-family: "GilroyLight";
-  src: url("fonts/GilroyLight.eot");
-  src: url("fonts/GilroyLight.eot") format("embedded-opentype"), url("fonts/GilroyLight.woff2") format("woff2"), url("fonts/GilroyLight.woff") format("woff"), url("fonts/GilroyLight.ttf") format("truetype"), url("fonts/GilroyLight.svg#GilroyLight") format("svg");
+  src: url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.eot");
+  src: url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.eot") format("embedded-opentype"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.woff2") format("woff2"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.woff") format("woff"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.ttf") format("truetype"), url("/assets/fonts/Gilroy-FREE/fonts/GilroyLight.svg#GilroyLight") format("svg");
 }
 .navbar-wrapp {
   position: absolute;
@@ -118,10 +118,10 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Roboto", sans-serif;
+  --bs-font-sans-serif: "GilroyLight", "DaughterofFortune", "GilroyExtraBold" sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto, sans-serif;
+  --bs-body-font-family: GilroyLight, DaughterofFortune, GilroyExtraBold sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5489,7 +5489,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "GilroyLight", "DaughterofFortune", "GilroyExtraBold" sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5591,7 +5591,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "Roboto", sans-serif;
+  font-family: "GilroyLight", "DaughterofFortune", "GilroyExtraBold" sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
